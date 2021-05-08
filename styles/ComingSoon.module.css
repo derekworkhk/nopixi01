@@ -1,0 +1,97 @@
+.mainbase{
+    position: relative;
+}
+.absolute100{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+.buttonwrap{
+    width:100%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.titletext{
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family: mcsaatchi, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.lineoftext{
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-family: mcsaatchi, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.movingtextwrap{
+    display: block;
+    width:100%;
+    text-align: center;
+    position: relative;
+}
+
+.movingtextouterwrap{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease-out;
+}
+.movingtextinnerwrap{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    padding-left:25px;
+    padding-right:25px;
+}
+.paddinglr25{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.maincontantwrap{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.funtextwrapdesktop{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.funtextwrapmobile{
+    display: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 767px){
+    .movingtextwrap{
+        text-align: left;
+    }
+    .maincontantwrap{
+        align-items: flex-start;
+    }
+    .titletext{
+        font-size: 1.2rem;
+    }
+    .lineoftext{
+        font-size: 2rem;
+    }
+    .funtextwrapdesktop{
+        display: none;
+    }
+    .funtextwrapmobile{
+        display: block;
+    }
+    .buttonwrap{
+        text-align: left;
+    }
+}

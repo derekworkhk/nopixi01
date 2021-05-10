@@ -21,13 +21,13 @@
 .titletext{
     color: #fff;
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     font-family: mcsaatchi, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .lineoftext{
     color: #fff;
     font-size: 3rem;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     font-family: mcsaatchi, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .movingtextwrap{

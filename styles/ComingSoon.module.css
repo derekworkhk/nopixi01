@@ -1,5 +1,7 @@
 .mainbase{
     position: relative;
+    height: 100vh;
+    max-height: -webkit-fill-available;
 }
 .absolute100{
     display: block;
@@ -81,6 +83,7 @@
     }
     .titletext{
         font-size: 1.2rem;
+        line-height: 1.7rem;
     }
     .lineoftext{
         font-size: 2rem;

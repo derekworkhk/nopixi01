@@ -152,7 +152,7 @@ summary {
 body,html {
   font-family: RobotoMono-Regular,sans-serif;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   -webkit-font-smoothing: antialiased
 }
 
